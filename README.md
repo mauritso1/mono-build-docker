@@ -11,7 +11,7 @@ mono-build-docker/
 │	├──<name>.sln    
 │	└───<name>/
 │	     ├──   packages.config
-│	     ├──   files in config directory will be copied/overwritten here
+│	     └───   files in config directory will be copied/overwritten here
 └─── config/
 	     └───   files that need to be overwritten
 ```
