@@ -5,8 +5,15 @@ put the project in the ./src directory
 
 build.sh assumes
 
-src/
-  <name>.sln
-  <name>/
-    packages.config
-    <files in the ./config directory will be copied/overwritten here>
+```
+mono-build-docker/
+└─── build.sh
+└─── src/
+|	│   <name>.sln    
+|	└───<name>/
+|	|    │   packages.config
+|	|    │   files in config directory will be copied/overwritten here
+└─── config/
+	|    │   files that need to be overwritten
+	└───
+```
