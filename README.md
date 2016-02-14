@@ -10,8 +10,8 @@ mono-build-docker/
 └─── src/
 │	├──<name>.sln    
 │	└───<name>/
-│	     ├──   packages.config
-│	     └───   files in config directory will be copied/overwritten here
+│		├──   packages.config
+│		└───   files in config directory will be copied/overwritten here
 └─── config/
-	     └───   files that need to be overwritten
+	└───   files that need to be overwritten
 ```
