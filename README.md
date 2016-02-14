@@ -3,7 +3,7 @@ Dockerfile to build a project with mono
 put .config files you want to overwrite in ./config
 put the project in the ./src directory
 
-build.sh assumes
+build.sh/run.sh assumes
 
 ```
 mono-build-docker/
