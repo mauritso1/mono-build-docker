@@ -7,13 +7,11 @@ build.sh assumes
 
 ```
 mono-build-docker/
-└─── build.sh
 └─── src/
-|	│   <name>.sln    
-|	└───<name>/
-|	|    │   packages.config
-|	|    │   files in config directory will be copied/overwritten here
+│	├──<name>.sln    
+│	└───<name>/
+│	     ├──   packages.config
+│	     ├──   files in config directory will be copied/overwritten here
 └─── config/
-	|    │   files that need to be overwritten
-	└───
+	     └───   files that need to be overwritten
 ```
